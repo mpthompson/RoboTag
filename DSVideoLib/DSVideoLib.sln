@@ -1,0 +1,53 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DSVL", "src\DSVL.vcproj", "{BFA16123-9EB6-4641-A33F-9FFD7511AD5D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glutSample", "src\glutSample.vcproj", "{826D36FB-3301-4A56-A8D4-343D84D2941E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BFA16123-9EB6-4641-A33F-9FFD7511AD5D} = {BFA16123-9EB6-4641-A33F-9FFD7511AD5D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IEEE1394_id", "src\IEEE1394_id.vcproj", "{BC55969A-78AA-4C47-AB02-CA04409C6EF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFA16123-9EB6-4641-A33F-9FFD7511AD5D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BFA16123-9EB6-4641-A33F-9FFD7511AD5D}.Debug|Win32.Build.0 = Debug|Win32
+		{BFA16123-9EB6-4641-A33F-9FFD7511AD5D}.Release|Win32.ActiveCfg = Release|Win32
+		{BFA16123-9EB6-4641-A33F-9FFD7511AD5D}.Release|Win32.Build.0 = Release|Win32
+		{826D36FB-3301-4A56-A8D4-343D84D2941E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{826D36FB-3301-4A56-A8D4-343D84D2941E}.Debug|Win32.Build.0 = Debug|Win32
+		{826D36FB-3301-4A56-A8D4-343D84D2941E}.Release|Win32.ActiveCfg = Release|Win32
+		{826D36FB-3301-4A56-A8D4-343D84D2941E}.Release|Win32.Build.0 = Release|Win32
+		{BC55969A-78AA-4C47-AB02-CA04409C6EF8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BC55969A-78AA-4C47-AB02-CA04409C6EF8}.Debug|Win32.Build.0 = Debug|Win32
+		{BC55969A-78AA-4C47-AB02-CA04409C6EF8}.Release|Win32.ActiveCfg = Release|Win32
+		{BC55969A-78AA-4C47-AB02-CA04409C6EF8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0F363E18-9842-4CEA-A2C1-E980167C3C8B}</ProjectGuid>
+    <RootNamespace>RoboTag</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfAtl>false</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\DirectShow\BaseClasses;..\ATL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <OmitDefaultLibName>false</OmitDefaultLibName>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>wxbase29ud.lib;wxmsw29ud_core.lib;wxmsw29ud_adv.lib;wxmsw29ud_gl.lib;comctl32.lib;rpcrt4.lib;strmiids.lib;strmbaseud.lib;winmm.lib;cv.lib;cxcore.lib;highgui.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\bin\$(ProjectName)Debug.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\DirectShow\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>-D_CRT_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\DirectShow\BaseClasses;..\ATL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>wxbase29u.lib;wxmsw29u_core.lib;wxmsw29u_adv.lib;wxmsw29u_gl.lib;comctl32.lib;rpcrt4.lib;strmiids.lib;strmbaseu.lib;winmm.lib;cv.lib;cxcore.lib;highgui.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\bin\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>..\DirectShow\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="cvSusan.c" />
+    <ClCompile Include="cvUtil.c" />
+    <ClCompile Include="rvBitfield.c" />
+    <ClCompile Include="rvBtree.c" />
+    <ClCompile Include="rvCalibrate.c" />
+    <ClCompile Include="rvCamera.cpp" />
+    <ClCompile Include="rvCrc16.c" />
+    <ClCompile Include="rvDecode.c" />
+    <ClCompile Include="rvDSCamera.cpp" />
+    <ClCompile Include="rvFec.c" />
+    <ClCompile Include="rvGrid.c" />
+    <ClCompile Include="rvHash.c" />
+    <ClCompile Include="rvLinkedList.c" />
+    <ClCompile Include="rvMemBlock.c" />
+    <ClCompile Include="rvMemPool.c" />
+    <ClCompile Include="rvObject.c" />
+    <ClCompile Include="rvRoboTagApp.cpp" />
+    <ClCompile Include="rvRoboTagCalibrate.cpp" />
+    <ClCompile Include="rvRoboTagFrame.cpp" />
+    <ClCompile Include="rvRoboTagProps.cpp" />
+    <ClCompile Include="rvTag.c" />
+    <ClCompile Include="rvTags384.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cvSusan.h" />
+    <ClInclude Include="cvUtil.h" />
+    <ClInclude Include="rvBitfield.h" />
+    <ClInclude Include="rvBtree.h" />
+    <ClInclude Include="rvCalibrate.h" />
+    <ClInclude Include="rvCamera.h" />
+    <ClInclude Include="rvCrc16.h" />
+    <ClInclude Include="rvDecode.h" />
+    <ClInclude Include="rvDSCamera.h" />
+    <ClInclude Include="rvFec.h" />
+    <ClInclude Include="rvGrid.h" />
+    <ClInclude Include="rvHash.h" />
+    <ClInclude Include="rvLinkedList.h" />
+    <ClInclude Include="rvMemBlock.h" />
+    <ClInclude Include="rvMemPool.h" />
+    <ClInclude Include="rvObject.h" />
+    <ClInclude Include="rvRoboTagApp.h" />
+    <ClInclude Include="rvRoboTagCalibrate.h" />
+    <ClInclude Include="rvRoboTagFrame.h" />
+    <ClInclude Include="rvRoboTagProps.h" />
+    <ClInclude Include="rvTag.h" />
+    <ClInclude Include="rvTags384.h" />
+    <ClInclude Include="rvTypes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="robotag_icon.xpm" />
+    <None Include="README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DirectShow\BaseClasses\baseclasses.vcxproj">
+      <Project>{e8a3f6fa-ae1c-4c8e-a0b6-9c8480324eaa}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

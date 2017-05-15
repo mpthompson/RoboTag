@@ -1,0 +1,75 @@
+END USER LICENSE AGREEMENT for Neat-CPP class libraries Version 1.00
+
+This Tooltips.Net License Agreement (Tooltips.Net Neat-CPP License Version 1.0) 
+is a legal Agreement between You (either an individual or a single entity) and 
+Tooltips.Net L.L.C., for the Neat-CPP class libraries (hereinafter 
+"NEATCPP CLASSES").
+
+By installing, copying, or otherwise using and testing the NEATCPP CLASSES, 
+You agree to be bound by the terms of this License Agreement. If You do not 
+agree to the terms of this License Agreement, do not install or use the 
+NEATCPP CLASSES.
+
+Any reproduction or redistribution of the NEATCPP CLASSES not in accordance 
+with this License Agreement is expressly prohibited by law, and may result in 
+severe civil and criminal penalties. Tooltips.Net software is licensed, not 
+sold.
+
+Your use of the NEATCPP CLASSES is limited to one of the following licensing 
+options chosen at the time of download or promoted (upgraded) at the 
+"neatcpp.com" web site. Each licensing option is defined as follows:
+
+  a) Non-commercial, nonexclusive, Academic License. 
+     Allows using NEATCPP CLASSES for the purpose of creating non-commercial, 
+     not-for-profit demonstration or trial applications either with academic 
+     or experimental intention. NEATCPP CLASSES where appropriate may be 
+     distributed with such applications only if non-commercial purpose for 
+     the distribution is pursued by the licensee. Tooltips.Net L.L.C. 
+     reserves the right to limit functionality of the free version of the 
+     NEATCPP CLASSES and/or incorporate advertising into it.  
+
+  b) Nonexclusive, non-transferable, irrevocable Source Code License. 
+     Grants You the right to use NEATCPP CLASSES in commercial applications 
+     and distribute it where appropriate with your software (as defined 
+     hereafter) with no royalties payable to Tooltips.Net L.L.C. Source Code 
+     provided under this option may only be used solely for your own internal 
+     business needs including but not limited to preparation of derivative 
+     works. Under no circumstances the Source Code, either in its original or 
+     modified form, may be distributed or transferred outside of the business 
+     entity or individual person capacity to which the license was granted. 
+     Compiled version of the Source Code (binary object code) where appropriate 
+     may be distributed either commercially or in not-for-profit fashion to any 
+     third party including retail, provided that its use in the distributing 
+     software package is limited to accessory, secondary means and neither 
+     constitute the main part nor determine a purpose of such distribution.  
+
+In addition to the licensing options granted above Tooltips.Net L.L.C. grants 
+you the right to use, modify, prepare derivative works and redistribute in any 
+form the source code of the accompanying NEATCPP CLASSES Sample Code that is 
+clearly identified as such and may be freely downloaded at the "neatcpp.com" 
+web site.
+
+LIMITED WARRANTY. Tooltips.Net L.L.C. WARRANTS THAT THE NEATCPP CLASSES WILL 
+PERFORM SUBSTANTIALLY IN ACCORDANCE WITH THE ACCOMPANYING DOCUMENTATION AND 
+HELP MATERIALS. NO OTHER WARRANTIES. TO THE MAXIMUM EXTENT PERMITTED BY 
+APPLICABLE LAW, Tooltips.Net L.L.C. DISCLAIMS ALL OTHER WARRANTIES, EITHER 
+EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF 
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, WITH REGARD TO THE 
+NEATCPP CLASSES.
+ 
+NO LIABILITY FOR CONSEQUENTIAL DAMAGES.
+IN NO EVENT SHALL Tooltips.Net L.L.C. BE LIABLE FOR ANY SPECIAL, INCIDENTAL, 
+INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, 
+DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS 
+INFORMATION, OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OR OF 
+INABILITY TO USE NEATCPP CLASSES.
+ 
+LICENSEE ACKNOWLEDGES THAT IT HAS READ AND UNDERSTANDS THIS AGREEMENT AND 
+AGREES TO BE BOUND BY ITS TERMS. LICENSEE FURTHER AGREES THAT THIS AGREEMENT 
+IS THE COMPLETE AND EXCLUSIVE STATEMENT OF THE AGREEMENT BETWEEN LICENSEE AND 
+LICENSOR, AND SUPERSEDES ANY PROPOSAL OR PRIOR AGREEMENT, ORAL OR WRITTEN, AND 
+ANY OTHER COMMUNICATIONS RELATING TO THE SUBJECT MATER OF THIS AGREEMENT.
+
+COPYRIGHT NOTICE. Copyright(C) 2004 Tooltips.Net L.L.C., All rights reserved. 
+
+Any rights not expressly granted herein are reserved.

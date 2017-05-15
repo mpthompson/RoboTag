@@ -1,0 +1,6 @@
+CAMER           ICON    DISCARDABLE     "camera.ico"
+WXOPENCV_ABOUT  BITMAP  DISCARDABLE     "wxopencvabout.bmp"
+
+// #define wxUSE_NO_MANIFEST 1
+
+#include "wx/msw/wx.rc"
